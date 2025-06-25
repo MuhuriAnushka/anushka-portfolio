@@ -3,22 +3,22 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #F9FAFB;
+  color: #374151;
 }
 
 header {
   text-align: center;
   padding: 2rem;
-  background-color: #008080;
-  color: #fff;
+  background-color: #0A192F;
+  color: #F9FAFB;
 }
 
 .profile-img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #F9FAFB;
 }
 
 h1 {
@@ -26,27 +26,30 @@ h1 {
 }
 
 .social-links a {
-  color: #fff;
+  color: #F9FAFB;
   text-decoration: none;
   margin: 0 0.5rem;
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  color: #E5E7EB;
 }
 
 section {
   padding: 2rem;
   max-width: 900px;
-  margin: auto;
-  background: #fff;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin: 1.5rem auto;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 h2 {
-  border-bottom: 2px solid #008080;
+  border-bottom: 2px solid #1E3A8A;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
-  color: #008080;
+  color: #1E3A8A;
 }
 
 ul {
@@ -57,7 +60,16 @@ ul {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #008080;
-  color: #fff;
-  margin-top: 1rem;
+  background: #0A192F;
+  color: #F9FAFB;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #1E3A8A;
+}
+
+a:hover {
+  color: #334155;
 }
