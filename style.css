@@ -1,90 +1,65 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Calibri', sans-serif;
   margin: 0;
   padding: 0;
-  background: #0A192F;
-  color: #CCD6F6;
   line-height: 1.6;
+  background-color: #0A192F;
+  color: #F0F0F0;
 }
 
 header {
   text-align: center;
   padding: 2rem;
-  background: #112240;
+  background-color: #0A192F;
 }
 
 .profile-img {
-  width: 130px;
-  height: 130px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  border: 3px solid #64FFDA;
-  margin-bottom: 1rem;
+  border: 4px solid #64FFDA;
 }
 
 h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  background: #112240;
-  padding: 0.8rem;
-}
-
-nav a {
+  margin: 0.5rem 0;
+  font-size: 2.2rem;
   color: #64FFDA;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-section {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 1rem 2rem;
-  background: #112240;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
 h2 {
-  color: #64FFDA;
-  border-bottom: 1px solid #64FFDA;
-  padding-bottom: 0.5rem;
+  color: #F0F0F0;
+  border-bottom: 2px solid #64FFDA;
+  padding-bottom: 0.4rem;
   margin-bottom: 1rem;
 }
 
-.card {
-  background: #0A192F;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-left: 4px solid #64FFDA;
-  border-radius: 6px;
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 1rem auto;
+  background-color: #112240;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
 
 ul {
   padding-left: 1.5rem;
 }
 
-a {
-  color: #64FFDA;
+li {
+  margin: 0.5rem 0;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #112240;
+  background-color: #0A192F;
+  color: #F0F0F0;
   margin-top: 2rem;
-  color: #8892B0;
+  font-size: 0.9rem;
 }
 
-button {
-  background: #64FFDA;
-  color: #0A192F;
-  border: none;
-  padding: 0.3rem 0.6rem;
-  border-radius: 4px;
-  cursor: pointer;
+a {
+  color: #64FFDA;
+  text-decoration: none;
 }
