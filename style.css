@@ -4,21 +4,21 @@ body {
   padding: 0;
   line-height: 1.6;
   background-color: #0A192F;
-  color: #333;
+  color: #F9FAFB;
 }
 
 header {
   text-align: center;
   padding: 2rem;
   background-color: #0A192F;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .profile-img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #F9FAFB;
 }
 
 h1 {
@@ -26,27 +26,31 @@ h1 {
 }
 
 .social-links a {
-  color: #fff;
+  color: #F9FAFB;
   text-decoration: none;
   margin: 0 0.5rem;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.social-links a:hover {
+  color: #E0E7FF;
 }
 
 section {
   padding: 2rem;
   max-width: 900px;
-  margin: auto;
-  background: #fff;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin: 2rem auto;
+  background: #FFFFFF;
+  color: #374151;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
 }
 
 h2 {
-  border-bottom: 2px solid #0A192F;
+  border-bottom: 2px solid #1E3A8A;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
-  color: #0A192F;
+  color: #1E3A8A;
 }
 
 ul {
@@ -58,6 +62,15 @@ footer {
   text-align: center;
   padding: 1rem;
   background: #0A192F;
-  color: #fff;
-  margin-top: 1rem;
+  color: #F9FAFB;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #1E3A8A;
+}
+
+a:hover {
+  color: #3B82F6;
 }
